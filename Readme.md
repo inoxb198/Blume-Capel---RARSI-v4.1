@@ -166,7 +166,7 @@ $$
 The useful gradients are
 
 $$
-\frac{\partial\\mathrm{PLL}}{\partial h_i}=x_i-m_i, \qquad \frac{\partial\\mathrm{PLL}}{\partial d_i}=x_i^2-q_i^{(2)}, \qquad \frac{\partial\\mathrm{PLL}}{\partial J_{ij}}=x_i x_j-m_i m_j \quad (i\ne j).
+\frac{\partial\\mathrm{PLL}}{\partial h_i}=x_i-m_i, \qquad \frac{\partial\\mathrm{PLL}}{\partial d_i}=x_i^2-q_i^{(2)}, \qquad \frac{\partial\\mathrm{PLL}}{\partial J_{ij}}=x_i x_j-m_i m_j+(x_i-m_i)(x_j-m_j) \quad (i\ne j).
 $$
 
  
