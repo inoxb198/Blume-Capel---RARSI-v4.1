@@ -4,7 +4,7 @@ A regime-aware cross-sectional return model inspired by statistical mechanics. R
  
 ## 1. Model summary
  
-Let $U=\{1,\dots,N\}$ denote a universe of tradable assets and let $P_t^{(i)}>0$ be the adjusted close of asset $i$ at time $t$. The simple return is
+Let $U=\left \lbrace 1,\dots,N\right \rbrace$ denote a universe of tradable assets and let $P_t^{(i)}>0$ be the adjusted close of asset $i$ at time $t$. The simple return is
  
 $$
 r_t^{(i)}=\frac{P_t^{(i)}}{P_{t-1}^{(i)}}-1,
